@@ -1,3 +1,13 @@
+### This is a fork
+
+This is for playing around with the Web MIDI API and my Hercules RMX MIDI controller.
+
+So far I've mapped the input of the 12 function buttons and the main volume vader, which adjusts the volume of the example audio playing
+
+
+
+---------------------------
+
 # Web MIDI API Polyfill
 
 This JS library is a prototype polyfill and shim for the [Web MIDI API](https://dvcs.w3.org/hg/audio/raw-file/tip/midi/specification.html) (of which I am a co-author), using [Jazz-Soft.net's Jazz-Plugin](http://jazz-soft.net/) to enable MIDI support on Windows and OSX.  You need to have at least [version 1.2](http://jazz-soft.net/download/Jazz-Plugin/1.2) of the Jazz-Plugin in order for this polyfill to work properly.  This polyfill and the plugin should work on Chrome, Firefox, Safari, Opera and IE.
